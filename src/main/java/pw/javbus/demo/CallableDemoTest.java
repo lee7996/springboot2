@@ -25,3 +25,7 @@ public class CallableDemoTest {
 		ser.shutdownNow();
 	}
 }
+
+class Demo {
+	
+}

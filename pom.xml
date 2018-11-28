@@ -97,6 +97,13 @@
 		     <optional>true</optional>  
 		 </dependency>
 		 <!-- 热部署结束 -->
+		 <dependency>
+		 	<groupId>org.springframework.boot</groupId>
+		 	<artifactId>
+		 		spring-boot-configuration-processor
+		 	</artifactId>
+		 	<optional>true</optional>
+		 </dependency>
 	</dependencies>
 
 	<build>
