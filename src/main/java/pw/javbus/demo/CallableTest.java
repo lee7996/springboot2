@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 
 public class CallableTest implements Callable<Integer>{
 
-	private Integer x = 0;
+	private volatile Integer x = 0;
 	@Override
 	public Integer call() throws Exception {
 			for (int i = 0; i < 100; i++) {
